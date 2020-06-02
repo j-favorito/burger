@@ -1,7 +1,28 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: rgb(252, 252, 80);
+}
+
+body{
+  background-color: rgb(223, 68, 68);
+}
+
+h2{
+  color: rgb(253, 253, 116);
+}
+
+h1{
+  color: rgb(253, 253, 116);
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.create-burger{
+  color: rgb(253, 253, 116);
 }
 
 .label {
