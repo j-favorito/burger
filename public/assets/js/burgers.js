@@ -1,4 +1,4 @@
-
+//changes the boolean of devoured to true or false
 $(function () {
   $(".change-devour").on("click", function (event) {
     var id = $(this).data("id");
@@ -19,6 +19,7 @@ $(function () {
     );
   });
 
+  //creates new burger and sets devoured state to true or false, depending on user choice
   $(".create-form").on("submit", function (event) {
     event.preventDefault();
     var newBurger = {
@@ -36,7 +37,7 @@ $(function () {
       }
     );
   });
-
+//deletes data from table based on delete button click
   $(".delete-burger").on("click", function (event) {
     var id = $(this).data("id");
 

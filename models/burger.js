@@ -1,5 +1,6 @@
 const orm = require("../config/orm.js");
 
+//using the orm to manipulate table data
 const burger = {
   all: async () => {
     const result = await orm.all("burgers");
